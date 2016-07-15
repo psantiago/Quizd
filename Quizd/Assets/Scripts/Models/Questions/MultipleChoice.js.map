@@ -1,0 +1,1 @@
+{"version":3,"file":"MultipleChoice.js","sourceRoot":"","sources":["MultipleChoice.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;YAEA;;eAEG;YACH;gBAA4C,kCAAoB;gBAM5D,wBAAY,IAAY,EAAE,aAAqB,EAAE,cAAsB,EAAE,OAAsB;oBAC3F,kBAAM,IAAI,EAAE,aAAa,EAAE,cAAc,CAAC,CAAC;oBAC3C,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;gBAC3B,CAAC;gBACL,qBAAC;YAAD,CAAC,AAVD,CAA4C,sBAAY,GAUvD;YAVD,oCAUC,CAAA"}

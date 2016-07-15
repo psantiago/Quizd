@@ -1,0 +1,7 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "devDependencies": {
+    "systemjs": "~0.19.31"
+  }
+}

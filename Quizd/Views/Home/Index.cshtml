@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "title";
+}
+
+<div id="alpha"></div>
+
+@section scripts{
+    <script src="~/node_modules/systemjs/dist/system.js"></script>
+    <script>
+        SystemJS.config({
+            baseURL: '/Assets/Scripts/ViewModels',
+            defaultJSExtensions: true
+        });
+
+        // loads /js/main.js
+        SystemJS.import('Home/index.js')
+            .then(function(viewmodel) {
+                window.home = window.home || {};
+                window.home.index = viewmodel;
+            });
+    </script>
+}
